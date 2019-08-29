@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<title>Vic Page</title>
+	<link href="style1.css" rel="stylesheet">
+</head>
+
+<body>
+<div>
+	<h1>Vic Frederick</h1>
+	<h3 class="tagline">Running on Passion</h3>
+	<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="p2_resume.html">Resume</a></li>
+		<li><a class="active" href="p3_projects.html">Projects</a></li>
+		<li><a href="p4_intrest.html">Current Intrest</a></li>
+		<li><a href="p5_tools.html">Tools</a></li>
+	</ul>
+</div>
+
+<h2>How to Make a Free Website</h2>
+<hr> 													
+<p>In this article I will discribe how to make a website for free just like this one. I will walk through basic HTML, CSS, Github Hosting, and domain acquisition.</p>
+<h3>HTML</h3>
+<p>Hypertext Markup Language<b>(HTML)</b> allows you to write the content of your website. The basic example from <a href="https://www.w3schools.com/html/">w3schools</a> gives the framework of an HTML page. Open the example and save the text as a ".html" page. The page will open in a brouser by default when double clicked on. To edit the page, open from a text editor or right click the file and scroll down to "Open with" to find the text editor of your choice.</p>
+
+<h3>CSS</h3>
+<p>Cascading Style Sheets<b>(CSS)</b> allows you to format the content of your website Again, <a href="https://www.w3schools.com/css/">w3schools</a> is going to be your best resoruce. The two different types of CSS are going to be in-line and external.</p>
+<h4>-In-Line Style</h4>
+<p>When you write the opening tag for a piece of content, a "style = cssFormatting" can be instered before the closing carrot. This allows you to style that specific content with no effect on the rest of the document</p>
+<h4>-External Style Sheet</h4>
+<p>Alternatively within the head of your HTML document, you can include a styles sheet. Adding the style sheet is as simple as writing the following link &lt;link href="styleSheetName.css" rel="stylesheet"&gt; </p>
+<p>The format of the external style sheet follows the in-line css, but for all HTML and CSS progress going forward, I recommend using w3school librally.</p>
+
+<h3>Housting on GitHub Pages</h3>
+<p>Now that you have writen a website, it is time to make it availible to the world. Github allows you to host websites from respositories using the pages feature.</p>
+<ol>
+	<li>Start a new pulic respository</li>
+	<li>Add wesite documents to the repository renaming the first page "index.html"</li>
+	<li>Go to "settings" and scroll down to "GitHub Pages"</li>
+	<li>Under the source drop down select "master branch"</li>
+	<li>Click live link to visit website</li>
+</ol>
+
+<h3>Creating Custom Domain</h3>
+<p>Free Domains can be found on <a href="https://www.freenom.com/">freenom.com</a> Finding your domain is as simple as typing the name of your desired URL into the search bar. Next, select an extention. The free extentions will be availivble to your for 12 months, but you can always renew down the line. You need the IP address of your host to use this domain. Go to <a href="https://help.github.com/en/articles/setting-up-an-apex-domain">DNS Configuration</a> and follow the instructions from Freenom <a href="https://my.freenom.com/knowledgebase.php?action=displayarticle&id=4">here</a>. To set up the networking from Freenom to GitHub you need to add all four IPs to the A Dom in Freenom. Lastly, declare your domain by adding a file named "CNAME" to your repository with the first line of that file being your domain.</p>
+
+<p> After following these steps you should end up with a website as live as this one. Happy trouble shooting!</p>
+</body>
+</html>

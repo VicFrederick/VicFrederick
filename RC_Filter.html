@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>RC Filter</h2>
+
+<p>Calculates the corner freuency (3 dB point) of a signle stage RC Low-Pass or High-Pass Filter.</p>
+<img src="lowpass_Filter.png" width="250" height="160">
+<img src="high_pass.png" width="250" height="160">
+<br>
+Resistance(Ω): <input name="res" id="res"><br>
+Capacitance(F): <input name="cap" id="cap"><br>
+
+
+<button onclick="corner();">Calculate</button>
+<p>Corner Frequency</p>
+
+<p id="freq"></p>
+
+<script>
+function corner() {
+    a = document.getElementById('res').value;
+	b = document.getElementById('cap').value;
+	document.getElementById('freq').innerHTML = 1/(2*Math.PI*a*b) + " Hz";
+}
+</script>
+
+</body>
+</html>

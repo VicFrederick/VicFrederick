@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Passive T-Twin Notching Filter</h2>
+
+<p>Calculates RC values of RC T-twin notching Filter to eliminate a given frequency. Quality factor is 0.25, so bandstop is four times the notching frequency.</p>
+<p> R1 = R2 = 2*R3</p>
+<p> C1 = C2 = 0.5*C3</p>
+<img src="t-twin.png" width="250" height="160">
+<br>
+Frequency(Hz): <input name="freq" id="freq"><br>
+Base Resistance(Ω): <input name="res" id="res"><br>
+<button onclick="tTwin();">Calculate</button>
+<p>RC Values</p>
+<p id="R1"></p>
+<p id="C1"></p>
+<p id="R3"></p>
+<p id="C3"></p>
+<script>
+function tTwin() {
+	freq = document.getElementById('freq').value;
+	res = document.getElementById('res').value;
+	document.getElementById('R1').innerHTML = "R1: " + res + " Ω";
+	document.getElementById('R3').innerHTML = "R3: " + res/2 + " Ω";
+	document.getElementById('C1').innerHTML = "C1: " + 1/(2*Math.PI*freq*res) + " F";
+	document.getElementById('C3').innerHTML = "C3: " + 1/(Math.PI*freq*res) + " F";
+}
+</script>
+
+</body>
+</html>

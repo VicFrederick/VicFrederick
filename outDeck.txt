@@ -1,0 +1,36 @@
+<h3>Hogaak</h3>
+<ul style="list-style-type: none;">
+<li>1	Dryad Arbor		15.79</li>
+<li>4	Carrion Feeder	b	1.56</li>
+<li>4	Gravecrawler	b	50.32</li>
+<li>4	Stitcher's Supplier	b	9.04</li>
+<li>4	Bloodghast	bb	74.32</li>
+<li>2	Golgari Thug	1b	2.56</li>
+<li>4	Satyr Wayfinder	1g	0.64</li>
+<li>4	Vengevine	2gg	106.64</li>
+<li>4	Hogaak, Arisen Necropolis	5bgbg	19.80</li>
+<li>Spells (8)</li>
+<li>4	Faithless Looting	r	4.40</li>
+<li>1	Lightning Axe	r	1.00</li>
+<li>3	Creeping Chill	3b	1.23</li>
+<li>Artifacts (3)</li>
+<li>3	Shriekhorn	1	2.82</li>
+<li>Lands (18)</li>
+<li>1	Blackcleave Cliffs		48.06</li>
+<li>2	Blood Crypt		24.00</li>
+<li>1	Bloodstained Mire		29.40</li>
+<li>2	Gemstone Mine		33.98</li>
+<li>1	Mountain		0.00</li>
+<li>2	Overgrown Tomb		13.98</li>
+<li>1	Swamp		0.00</li>
+<li>4	Verdant Catacombs		279.96</li>
+<li>4	Wooded Foothills		108.00</li>
+<li>Sideboard (15)</li>
+<li>2	Cryptbreaker	b	7.46</li>
+<li>2	Nature's Claim	g	0.78</li>
+<li>2	Thoughtseize	b	29.60</li>
+<li>3	Assassin's Trophy	bg	44.73</li>
+<li>2	Collector Ouphe	1g	8.60</li>
+<li>2	Plague Engineer	2b	17.90</li>
+<li>2	Force of Vigor	2gg	13.16</li>
+</ul>

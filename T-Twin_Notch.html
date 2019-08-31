@@ -1,17 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+	<title>Vic Page</title>
+	<link href="style1.css" rel="stylesheet">
+</head>
+
 <body>
+<div>
+	<h1>Vic Frederick</h1>
+	<h3 class="tagline">Running on Passion</h3>
+	<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="p2_resume.html">Resume</a></li>
+		<li><a href="p3_projects.html">Projects</a></li>
+		<li><a href="p4_intrest.html">Current Intrest</a></li>
+		<li><a class="active" href="p5_tools.html">Tools</a></li>
+	</ul>
+</div>
 
 <h2>Passive T-Twin Notching Filter</h2>
 
 <p>Calculates RC values of RC T-twin notching Filter to eliminate a given frequency. Quality factor is 0.25, so bandstop is four times the notching frequency.</p>
 <p> R1 = R2 = 2*R3</p>
 <p> C1 = C2 = 0.5*C3</p>
-<img src="t-twin.png" width="250" height="160">
+<img src="t-twin.png" width="250" height="160" style="padding-left: 20px;">
 <br>
-Frequency(Hz): <input name="freq" id="freq"><br>
-Base Resistance(Ω): <input name="res" id="res"><br>
-<button onclick="tTwin();">Calculate</button>
+<p>Frequency(Hz): <input name="freq" id="freq"></p>
+<p>Base Resistance(Ω): <input name="res" id="res"></p>
+<p><button onclick="tTwin();">Calculate</button></p>
 <p>RC Values</p>
 <p id="R1"></p>
 <p id="C1"></p>

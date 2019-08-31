@@ -1,6 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+	<title>Vic Page</title>
+	<link href="style1.css" rel="stylesheet">
+</head>
+
 <body>
+<div>
+	<h1>Vic Frederick</h1>
+	<h3 class="tagline">Running on Passion</h3>
+	<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="p2_resume.html">Resume</a></li>
+		<li><a href="p3_projects.html">Projects</a></li>
+		<li><a href="p4_intrest.html">Current Intrest</a></li>
+		<li><a class="active" href="p5_tools.html">Tools</a></li>
+	</ul>
+</div>
 
 <h2>RC Filter</h2>
 
@@ -8,11 +24,11 @@
 <img src="lowpass_Filter.png" width="250" height="160">
 <img src="high_pass.png" width="250" height="160">
 <br>
-Resistance(Ω): <input name="res" id="res"><br>
-Capacitance(F): <input name="cap" id="cap"><br>
+<p>Resistance(Ω): <input name="res" id="res"></p>
+<p>Capacitance(F): <input name="cap" id="cap"></p>
 
 
-<button onclick="corner();">Calculate</button>
+<p><button onclick="corner();">Calculate</button></p>
 <p>Corner Frequency</p>
 
 <p id="freq"></p>

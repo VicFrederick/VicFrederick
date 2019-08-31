@@ -30,31 +30,28 @@
 
 
 <p><button onclick="corner();">Calculate</button></p>
-<p>Calculated Resistance</p>
-<p id="rest"></p>
-<p>Calculated Capacitance</p>
-<p id="caps"></p>
-<p>Calculated Corner Frequency</p>
-<p id="freq"></p>
+<p id="rest">Calculated Resistance:</p>
+<p id="caps">Calculated Capacitance:</p>
+<p id="freq">Calculated Corner Frequency:</p>
 <script>
 function corner() {
     a = document.getElementById('res').value;
 	b = document.getElementById('cap').value;
 	c = document.getElementById('frq').value;
 	if (a && b) {
-		document.getElementById('rest').innerHTML = a + " Ω";
-		document.getElementById('caps').innerHTML = b + " F";
-		document.getElementById('freq').innerHTML = 1/(2*Math.PI*a*b) + " Hz";
+		document.getElementById('rest').innerHTML = "Calculated Resistance: " + a + " Ω";
+		document.getElementById('caps').innerHTML = "Calculated Capacitance:" + b + " F";
+		document.getElementById('freq').innerHTML = "Calculated Corner Frequency: " + 1/(2*Math.PI*a*b) + " Hz";
 	}
 	else if (b && c) {
-		document.getElementById('rest').innerHTML = 1/(2*Math.PI*b*c) + " Ω";
-		document.getElementById('caps').innerHTML = b + " F";
-		document.getElementById('freq').innerHTML = c + " Hz";
+		document.getElementById('rest').innerHTML = "Calculated Resistance: " + 1/(2*Math.PI*b*c) + " Ω";
+		document.getElementById('caps').innerHTML = "Calculated Capacitance:" + b + " F";
+		document.getElementById('freq').innerHTML = "Calculated Corner Frequency: " + c + " Hz";
 	}
 	else {
-		document.getElementById('rest').innerHTML = a + " Ω";
-		document.getElementById('caps').innerHTML = 1/(2*Math.PI*a*c) + " F";
-		document.getElementById('freq').innerHTML = c + " Hz";
+		document.getElementById('rest').innerHTML = "Calculated Resistance: " + a + " Ω";
+		document.getElementById('caps').innerHTML = "Calculated Capacitance:" + 1/(2*Math.PI*a*c) + " F";
+		document.getElementById('freq').innerHTML = "Calculated Corner Frequency: " + c + " Hz";
 	}
 }
 </script>

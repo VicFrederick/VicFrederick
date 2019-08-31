@@ -1,34 +1,35 @@
---Hogaak
-1	Dryad Arbor		15.79
-4	Carrion Feeder	b	1.56
-4	Gravecrawler	b	50.32
-4	Stitcher's Supplier	b	9.04
-4	Bloodghast	bb	74.32
-2	Golgari Thug	1b	2.56
-4	Satyr Wayfinder	1g	0.64
-4	Vengevine	2gg	106.64
-4	Hogaak, Arisen Necropolis	5bgbg	19.80
-Spells (8)
-4	Faithless Looting	r	4.40
-1	Lightning Axe	r	1.00
-3	Creeping Chill	3b	1.23
-Artifacts (3)
-3	Shriekhorn	1	2.82
-Lands (18)
-1	Blackcleave Cliffs		48.06
-2	Blood Crypt		24.00
-1	Bloodstained Mire		29.40
-2	Gemstone Mine		33.98
-1	Mountain		0.00
-2	Overgrown Tomb		13.98
-1	Swamp		0.00
-4	Verdant Catacombs		279.96
-4	Wooded Foothills		108.00
+--Rock Loam
+Planeswalkers (4)
+4 Liliana of the veil
+Spells (27)
+4 Life From the Loam
+4 Fatal Push
+4 Small Pox
+4 Assassin's Trophy
+4 inquisition of Kozilek
+3 Thoughtseize
+2 Worm Harvest
+1 Maelstrom Pulse
+1 Raven's Crime
+Lands (29)
+4 Swamp
+1 Forest
+4 Blooming Marsh
+4 Verdant Catacombs
+4 Ghost Quarter
+3 Barren Moor
+2 Overgrown Tomb
+2 Hissing Quagmire
+2 Treetop Village
+1 Blast Zone
+1 Tectonic Edge
+1 Tranquil Thicket
 Sideboard (15)
-2	Cryptbreaker	b	7.46
-2	Nature's Claim	g	0.78
-2	Thoughtseize	b	29.60
-3	Assassin's Trophy	bg	44.73
-2	Collector Ouphe	1g	8.60
-2	Plague Engineer	2b	17.90
-2	Force of Vigor	2gg	13.16
+4 Weather the Storm
+2 Collective Brutality
+2 Nissa, Vital Force
+2 Surgical Extraction
+2 Bontu's Last Reckoning
+1 Languish
+1 Damnation
+1 Abrupt Decay

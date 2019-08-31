@@ -21,23 +21,41 @@
 <h2>RC Filter</h2>
 
 <p>Calculates the corner freuency (3 dB point) of a signle stage RC Low-Pass or High-Pass Filter.</p>
-<img src="lowpass_Filter.png" width="250" height="160">
+<img src="lowpass_Filter.png" width="250" height="160" style="padding-left: 20px;">
 <img src="high_pass.png" width="250" height="160">
 <br>
 <p>Resistance(Ω): <input name="res" id="res"></p>
 <p>Capacitance(F): <input name="cap" id="cap"></p>
+<p>Corner Frequency(Hz): <input name="frq" id="frq"></p>
 
 
 <p><button onclick="corner();">Calculate</button></p>
-<p>Corner Frequency</p>
-
+<p>Calculated Resistance</p>
+<p id="rest"></p>
+<p>Calculated Capacitance</p>
+<p id="caps"></p>
+<p>Calculated Corner Frequency</p>
 <p id="freq"></p>
-
 <script>
 function corner() {
     a = document.getElementById('res').value;
 	b = document.getElementById('cap').value;
-	document.getElementById('freq').innerHTML = 1/(2*Math.PI*a*b) + " Hz";
+	c = document.getElementById('frq').value;
+	if (a && b) {
+		document.getElementById('rest').innerHTML = a + " Ω";
+		document.getElementById('caps').innerHTML = b + " F";
+		document.getElementById('freq').innerHTML = 1/(2*Math.PI*a*b) + " Hz";
+	}
+	else if (b && c) {
+		document.getElementById('rest').innerHTML = 1/(2*Math.PI*b*c) + " Ω";
+		document.getElementById('caps').innerHTML = b + " F";
+		document.getElementById('freq').innerHTML = c + " Hz";
+	}
+	else {
+		document.getElementById('rest').innerHTML = a + " Ω";
+		document.getElementById('caps').innerHTML = 1/(2*Math.PI*a*c) + " F";
+		document.getElementById('freq').innerHTML = c + " Hz";
+	}
 }
 </script>
 

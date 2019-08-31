@@ -5,6 +5,8 @@ for card in cards:
 	if card.find('--')!=-1:
 		deck.write("<h3>" + card[2:].strip() + "</h3>\n")
 		deck.write("<ul style=\"list-style-type: none;\">\n")
+	elif card.find('(')!=-1:
+		deck.write("<li><h4>" + card.strip() + "</h4></li>\n") 
 	else:
 		deck.write("<li>" + card.strip() + "</li>\n") 
 deck.write("</ul>")

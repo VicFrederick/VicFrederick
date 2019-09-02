@@ -21,9 +21,20 @@
 <hr>
 <p> One of my long term hobbies is this trading card game. Magic comes out with about 800 new cards every year, so there is a lot of space for creativity in the 60 cards I choose to play on any given Friday night. A few times a year in Texas there are also large tournaments that are starting to aproach 1500 particapents. One of my goals is traveling to play in more large tourmanents.
 
-<h2>Decks in Progress</h2>
-<h3>Rock Loam</h3>
-<ul style="list-style-type: none;">
+
+<h3>Modern <i>-A nonroatating format starting from the Mirrodin block with a <a href="https://magic.wizards.com/en/game-info/gameplay/formats/modern">banlist</a></i></h3>
+<p><b><button onclick="hide1()">Rock Loam</button></b> Modern version of the frindge legacy deck. Gets a lot of play with the cycle lands.</p>
+<script>
+function hide1() {
+  var x = document.getElementById("Rock Loam");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<ul id="Rock Loam" style="list-style-type: none; display: none">
 <li><h4>Planeswalkers (4)</h4></li>
 <li>4 Liliana of the Veil</li>
 <li><h4>Spells (27)</h4></li>
@@ -60,41 +71,85 @@
 <li>1 Abrupt Decay</li>
 </ul>
 
-<h3>Hogaak </h3>
-<ul style="list-style-type: none;">
-<li>1	Dryad Arbor</li>
-<li>4	Carrion Feeder</li>
-<li>4	Gravecrawler</li>
-<li>4	Stitcher's Supplier</li>
-<li>4	Bloodghast</li>
-<li>2	Golgari Thug</li>
-<li>4	Satyr Wayfinder</li>
-<li>4	Vengevine</li>
-<li>4	Hogaak, Arisen Necropolis</li>
-<li>Spells (8)</li>
-<li>4	Faithless Looting</li>
-<li>1	Lightning Axe</li>
-<li>3	Creeping Chill</li>
-<li>Artifacts (3)</li>
-<li>3	Shriekhorn</li>
-<li>Lands (18)</li>
-<li>1	Blackcleave Cliffs</li>
-<li>2	Blood Crypt</li>
-<li>1	Bloodstained Mire</li>
-<li>2	Gemstone Mine</li>
-<li>1	Mountain</li>
-<li>2	Overgrown Tomb</li>
-<li>1	Swamp</li>
-<li>4	Verdant Catacombs</li>
-<li>4	Wooded Foothills</li>
-<li>Sideboard (15)</li>
-<li>2	Cryptbreaker</li>
-<li>2	Nature's Claim</li>
-<li>2	Thoughtseize</li>
-<li>3	Assassin's Trophy</li>
-<li>2	Collector Ouphe</li>
-<li>2	Plague Engineer</li>
-<li>2	Force of Vigor</li>
+<h3>Pauper <i>-A nonroatating format of only commons with a small <a href="https://magic.wizards.com/en/game-info/gameplay/formats/pauper">banlist</a></i></h3>
+
+<p><b><button onclick="hide2()">Capsize</button></b> Bounces lands to keep opponent from developing their board. Designed to beat Tron.</p>
+<script>
+function hide2() {
+var x = document.getElementById("Capsize");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }}
+</script>
+<ul id="Capsize" style="list-style-type: none; display: none">
+<li><h4>Spells (39)</h4></li>
+<li>4 Capsize</li>
+<li>4 Boomerang</li>
+<li>4 Eye of Nowhere</li>
+<li>4 Preordain</li>
+<li>4 Accumulated Knowledge</li>
+<li>4 Vision Skeins</li>
+<li>4 Deep Analysis</li>
+<li>4 Counterspell</li>
+<li>3 Foil</li>
+<li>3 Fade Away</li>
+<li>1 Stream of Thought</li>
+<li><h4>Lands (21)</h4></li>
+<li>21 Island</li>
+<li><h4>Sideboard (15)</h4></li>
+<li>4 Gigadrowse</li>
+<li>4 Dispel</li>
+<li>4 Spell Pierce</li>
+<li>2 Course of the Bloody Tomb</li>
+<li>1 Stream of Thought</li>
 </ul>
+
+<p><b><button onclick="hide3()">BW Control</button></b> No target removal and good discard to combat Tron and Jesiki. Slugish against faries beacuse important spells can be countered.</p>
+<script>
+function hide3() {
+var x = document.getElementById("BW Control");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }}
+</script>
+<ul id="BW Control" style="list-style-type: none; display: none">
+<li><h4>Creatures (8)</h4></li>
+<li>4 Guardian of the Guildpact</li>
+<li>3 Palace Sentinels</li>
+<li>1 Thorn of the Black Rose</li>
+<li><h4>Artifacts (3)</h4></li>
+<li>3 Pristine Talisman</li>
+<li><h4>Enchantment (4)</h4></li>
+<li>4 Pestilence</li>
+<li><h4>Spells (22)</h4></li>
+<li>4 Innocent Blood</li>
+<li>4 Chainer's Edict</li>
+<li>4 Castigate</li>
+<li>4 Night's Whisper</li>
+<li>2 Duress</li>
+<li>2 Diabolic Edict</li>
+<li>1 Sign in Blood</li>
+<li>1 Evincar's Justice</li>
+<li><h4>Lands (23)</h4></li>
+<li>8 Swamp</li>
+<li>1 Plains</li>
+<li>4 Scoured Barrens</li>
+<li>4 Orzhov Basilica</li>
+<li>2 Bajuka Bog</li>
+<li>2 Radiant Fountain</li>
+<li>2 Kabira Crossroads</li>
+<li><h4>Sideboard (15)</h4></li>
+<li>4 Circle of Protection: Red</li>
+<li>3 Fragmentize</li>
+<li>3 Wrench Mind</li>
+<li>2 Journey to Nowhere</li>
+<li>2 Lone Missionary</li>
+<li>1 Evincar's Justice</li>
+</ul>
+
 </body>
 </html>

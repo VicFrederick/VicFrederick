@@ -69,3 +69,10 @@ div {
   	text-align: center;
 	color: #FFFFFF;
 }
+button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+}

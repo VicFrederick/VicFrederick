@@ -1,37 +1,44 @@
-<h3>Rock Loam</h3>
-<ul style="list-style-type: none;">
-<li><h4>Planeswalkers (4)</h4></li>
-<li>4 Liliana of the veil</li>
-<li><h4>Spells (27)</h4></li>
-<li>4 Life From the Loam</li>
-<li>4 Fatal Push</li>
-<li>4 Small Pox</li>
-<li>4 Assassin's Trophy</li>
-<li>4 inquisition of Kozilek</li>
-<li>3 Thoughtseize</li>
-<li>2 Worm Harvest</li>
-<li>1 Maelstrom Pulse</li>
-<li>1 Raven's Crime</li>
-<li><h4>Lands (29)</h4></li>
-<li>4 Swamp</li>
-<li>1 Forest</li>
-<li>4 Blooming Marsh</li>
-<li>4 Verdant Catacombs</li>
-<li>4 Ghost Quarter</li>
-<li>3 Barren Moor</li>
-<li>2 Overgrown Tomb</li>
-<li>2 Hissing Quagmire</li>
-<li>2 Treetop Village</li>
-<li>1 Blast Zone</li>
-<li>1 Tectonic Edge</li>
-<li>1 Tranquil Thicket</li>
+<p><b><button onclick="hide()">BW Control</button></b> Deck is cool</p>
+<script>
+function hide() {
+var x = document.getElementById("BW Control");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }}
+</script>
+<ul id="BW Control" style="list-style-type: none; display: none">
+<li><h4>Creatures (8)</h4></li>
+<li>4 Guardian of the Guildpact</li>
+<li>3 Palace Sentinels</li>
+<li>1 Thorn of the Black Rose</li>
+<li><h4>Artifacts (3)</h4></li>
+<li>3 Pristine Talisman</li>
+<li><h4>Enchantment (4)</h4></li>
+<li>4 Pestilence</li>
+<li><h4>Spells (22)</h4></li>
+<li>4 Innocent Blood</li>
+<li>4 Chainer's Edict</li>
+<li>4 Castigate</li>
+<li>4 Night's Whisper</li>
+<li>2 Dress</li>
+<li>2 Diabolic Edict</li>
+<li>1 Sign in Blood</li>
+<li>1 Evincar's Justice</li>
+<li><h4>Lands (23)</h4></li>
+<li>8 Swamp</li>
+<li>1 Plains</li>
+<li>4 Scoured Barrens</li>
+<li>4 Orzhov Basilica</li>
+<li>2 Bajuka Bog</li>
+<li>2 Radiant Fountain</li>
+<li>2 Kabira Crossroads</li>
 <li><h4>Sideboard (15)</h4></li>
-<li>4 Weather the Storm</li>
-<li>2 Collective Brutality</li>
-<li>2 Nissa, Vital Force</li>
-<li>2 Surgical Extraction</li>
-<li>2 Bontu's Last Reckoning</li>
-<li>1 Languish</li>
-<li>1 Damnation</li>
-<li>1 Abrupt Decay</li>
+<li>4 Circle of Protection: Red</li>
+<li>3 Fragmentize</li>
+<li>3 Wrench Mind</li>
+<li>2 Journey to Nowhere</li>
+<li>2 Lone Missionary</li>
+<li>1 Evincar's Justice</li>
 </ul>

@@ -1,35 +1,33 @@
---Rock Loam
-Planeswalkers (4)
-4 Liliana of the veil
-Spells (27)
-4 Life From the Loam
-4 Fatal Push
-4 Small Pox
-4 Assassin's Trophy
-4 inquisition of Kozilek
-3 Thoughtseize
-2 Worm Harvest
-1 Maelstrom Pulse
-1 Raven's Crime
-Lands (29)
-4 Swamp
-1 Forest
-4 Blooming Marsh
-4 Verdant Catacombs
-4 Ghost Quarter
-3 Barren Moor
-2 Overgrown Tomb
-2 Hissing Quagmire
-2 Treetop Village
-1 Blast Zone
-1 Tectonic Edge
-1 Tranquil Thicket
+--BW Control
+Creatures (8)
+4 Guardian of the Guildpact
+3 Palace Sentinels
+1 Thorn of the Black Rose
+Artifacts (3)
+3 Pristine Talisman
+Enchantment (4)
+4 Pestilence
+Spells (22)
+4 Innocent Blood
+4 Chainer's Edict
+4 Castigate
+4 Night's Whisper
+2 Dress
+2 Diabolic Edict
+1 Sign in Blood
+1 Evincar's Justice
+Lands (23)
+8 Swamp
+1 Plains
+4 Scoured Barrens
+4 Orzhov Basilica
+2 Bajuka Bog
+2 Radiant Fountain
+2 Kabira Crossroads
 Sideboard (15)
-4 Weather the Storm
-2 Collective Brutality
-2 Nissa, Vital Force
-2 Surgical Extraction
-2 Bontu's Last Reckoning
-1 Languish
-1 Damnation
-1 Abrupt Decay
+4 Circle of Protection: Red
+3 Fragmentize
+3 Wrench Mind
+2 Journey to Nowhere
+2 Lone Missionary
+1 Evincar's Justice

@@ -1,33 +1,28 @@
---GB Tortex
-Creatures (29)
+--Rat Race
+Creatures (17)
 4 Crypt Rats
-4 Golgari Brownscale
-4 Horror of the Broken Lands
-3 Tilling Treefolk
-3 Auger of the Skulls
-3 Basking Rootwalla
-2 Akiba-Gang Shinobi
-2 Faerie Macabre
-2 Grave Scrabbler
-1 Pit Keeper
-1 Spore Frog
-Enchantment (4)
-4 Tortured Existence
-Spells (4)
-4 Commune with the Gods
-Lands (23)
-1 Tranquil Thicket
-2 Barren Moor
-2 Ash Barrens
-2 Terramorphic Expanse
-4 Evolving Wilds
-2 Forest
-10 Swamp
+4 Sakura-Tribe Elder
+4 Satyr Wayfinder
+3 Krosan Tusker
+2 Ondu Giant
+Spells (21)
+4 Disfigure
+4 Chainer's Edict
+4 Unearth
+4 Grim Harvest
+3 Gnaw to the Bone
+1 Grisly Salvage
+1 Duress
+Lands (22)
+1 Mortuary Mire
+3 Golgari Rot Farm
+4 Jungle Hollow
+5 Forest
+9 Swamp
 Sideboard (15)
-4 Snuff Out
-2 Gnaw to the Bone
-2 Brindle Boar
-2 Caustic Caterpillar
+4 Mwonvuli Acid-Moss
+3 Ulamog's Crusher
 2 Wickerbough Elder
-2 Spore Frog
-1 Faerie Macabre
+2 Moment of Craving
+1 Gnaw to the Bone
+2 Faerie Macabre

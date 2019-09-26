@@ -1,44 +1,39 @@
-<p><b><button onclick="hide()">GB Tortex</button></b> Deck is cool</p>
+<p><b><button onclick="hide()">Rat Race</button></b> Deck is cool</p>
 <script>
 function hide() {
-var x = document.getElementById("GB Tortex");
+var x = document.getElementById("Rat Race");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }}
 </script>
-<ul id="GB Tortex" style="list-style-type: none; display: none">
-<li><h4>Creatures (29)</h4></li>
+<ul id="Rat Race" style="list-style-type: none; display: none">
+<li><h4>Creatures (17)</h4></li>
 <li>4 Crypt Rats</li>
-<li>4 Golgari Brownscale</li>
-<li>4 Horror of the Broken Lands</li>
-<li>3 Tilling Treefolk</li>
-<li>3 Auger of the Skulls</li>
-<li>3 Basking Rootwalla</li>
-<li>2 Akiba-Gang Shinobi</li>
-<li>2 Faerie Macabre</li>
-<li>2 Grave Scrabbler</li>
-<li>1 Pit Keeper</li>
-<li>1 Spore Frog</li>
-<li><h4>Enchantment (4)</h4></li>
-<li>4 Tortured Existence</li>
-<li><h4>Spells (4)</h4></li>
-<li>4 Commune with the Gods</li>
-<li><h4>Lands (23)</h4></li>
-<li>1 Tranquil Thicket</li>
-<li>2 Barren Moor</li>
-<li>2 Ash Barrens</li>
-<li>2 Terramorphic Expanse</li>
-<li>4 Evolving Wilds</li>
-<li>2 Forest</li>
-<li>10 Swamp</li>
+<li>4 Sakura-Tribe Elder</li>
+<li>4 Satyr Wayfinder</li>
+<li>3 Krosan Tusker</li>
+<li>2 Ondu Giant</li>
+<li><h4>Spells (21)</h4></li>
+<li>4 Disfigure</li>
+<li>4 Chainer's Edict</li>
+<li>4 Unearth</li>
+<li>4 Grim Harvest</li>
+<li>3 Gnaw to the Bone</li>
+<li>1 Grisly Salvage</li>
+<li>1 Duress</li>
+<li><h4>Lands (22)</h4></li>
+<li>1 Mortuary Mire</li>
+<li>3 Golgari Rot Farm</li>
+<li>4 Jungle Hollow</li>
+<li>5 Forest</li>
+<li>9 Swamp</li>
 <li><h4>Sideboard (15)</h4></li>
-<li>4 Snuff Out</li>
-<li>2 Gnaw to the Bone</li>
-<li>2 Brindle Boar</li>
-<li>2 Caustic Caterpillar</li>
+<li>4 Mwonvuli Acid-Moss</li>
+<li>3 Ulamog's Crusher</li>
 <li>2 Wickerbough Elder</li>
-<li>2 Spore Frog</li>
-<li>1 Faerie Macabre</li>
+<li>2 Moment of Craving</li>
+<li>1 Gnaw to the Bone</li>
+<li>2 Faerie Macabre</li>
 </ul>

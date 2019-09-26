@@ -1,33 +1,33 @@
---BW Control
-Creatures (8)
-4 Guardian of the Guildpact
-3 Palace Sentinels
-1 Thorn of the Black Rose
-Artifacts (3)
-3 Pristine Talisman
+--GB Tortex
+Creatures (29)
+4 Crypt Rats
+4 Golgari Brownscale
+4 Horror of the Broken Lands
+3 Tilling Treefolk
+3 Auger of the Skulls
+3 Basking Rootwalla
+2 Akiba-Gang Shinobi
+2 Faerie Macabre
+2 Grave Scrabbler
+1 Pit Keeper
+1 Spore Frog
 Enchantment (4)
-4 Pestilence
-Spells (22)
-4 Innocent Blood
-4 Chainer's Edict
-4 Castigate
-4 Night's Whisper
-2 Dress
-2 Diabolic Edict
-1 Sign in Blood
-1 Evincar's Justice
+4 Tortured Existence
+Spells (4)
+4 Commune with the Gods
 Lands (23)
-8 Swamp
-1 Plains
-4 Scoured Barrens
-4 Orzhov Basilica
-2 Bajuka Bog
-2 Radiant Fountain
-2 Kabira Crossroads
+1 Tranquil Thicket
+2 Barren Moor
+2 Ash Barrens
+2 Terramorphic Expanse
+4 Evolving Wilds
+2 Forest
+10 Swamp
 Sideboard (15)
-4 Circle of Protection: Red
-3 Fragmentize
-3 Wrench Mind
-2 Journey to Nowhere
-2 Lone Missionary
-1 Evincar's Justice
+4 Snuff Out
+2 Gnaw to the Bone
+2 Brindle Boar
+2 Caustic Caterpillar
+2 Wickerbough Elder
+2 Spore Frog
+1 Faerie Macabre

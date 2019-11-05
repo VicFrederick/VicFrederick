@@ -1,28 +1,42 @@
---Rat Race
-Creatures (17)
-4 Crypt Rats
-4 Sakura-Tribe Elder
-4 Satyr Wayfinder
-3 Krosan Tusker
-2 Ondu Giant
+--Seasons Past
+Creatures (8)
+3 Tireless Tracker
+2 Murderous Rider
+2 Tasigur, the Golden Fang
+1 Nissa, Vastwood Seer
 Spells (21)
-4 Disfigure
-4 Chainer's Edict
-4 Unearth
-4 Grim Harvest
-3 Gnaw to the Bone
-1 Grisly Salvage
+3 Thoughtseize
 1 Duress
-Lands (22)
-1 Mortuary Mire
-3 Golgari Rot Farm
-4 Jungle Hollow
-5 Forest
-9 Swamp
+2 Collective Brutality
+1 Read the Bones
+1 Languish
+3 Dark Petition
+1 Seasons Past
+4 Fatal Push
+4 Assassin's Trophy
+3 Abrupt Decay
+2 Grasp of Darkness
+1 Pulse of Murasa
+1 Crypt Incursion
+Lands (25)
+1 Blast Zone
+1 Field of Ruin
+1 Castle Locthwain
+2 Woodland Cemetery
+3 Blooming Marsh
+3 Hissing Quagmire
+3 Fabled Passage
+3 Forest
+8 Swamp
 Sideboard (15)
-4 Mwonvuli Acid-Moss
-3 Ulamog's Crusher
-2 Wickerbough Elder
-2 Moment of Craving
-1 Gnaw to the Bone
-2 Faerie Macabre
+2 Veil of Summer
+2 Collective Brutality
+2 Unravel the Aether
+2 Lost Legacy
+1 Nissa, Vital Force
+1 Ashiok, Dream Render
+1 Languish
+1 Bontu's Last Reckoning
+1 Cry of the Carnarium
+1 Golgari Charm
+1 Duress

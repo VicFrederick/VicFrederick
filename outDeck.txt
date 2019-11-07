@@ -9,45 +9,37 @@ var x = document.getElementById("Seasons Past");
   }}
 </script>
 <ul id="Seasons Past" style="list-style-type: none; display: none">
-<li><h4>Creatures (8)</h4></li>
-<li>3 Tireless Tracker</li>
-<li>2 Murderous Rider</li>
-<li>2 Tasigur, the Golden Fang</li>
-<li>1 Nissa, Vastwood Seer</li>
+<li><h4>Artifacts (6)</h4></li>
+<li>3 Pristine Talisman</li>
+<li>3 Witching Well</li>
 <li><h4>Spells (21)</h4></li>
-<li>3 Thoughtseize</li>
-<li>1 Duress</li>
-<li>2 Collective Brutality</li>
-<li>1 Read the Bones</li>
-<li>1 Languish</li>
-<li>3 Dark Petition</li>
-<li>1 Seasons Past</li>
-<li>4 Fatal Push</li>
-<li>4 Assassin's Trophy</li>
-<li>3 Abrupt Decay</li>
-<li>2 Grasp of Darkness</li>
-<li>1 Pulse of Murasa</li>
+<li>4 Counterspell</li>
+<li>4 Artificer's Epiphany</li>
+<li>3 Mystical Teachings</li>
+<li>3 Exclude</li>
+<li>2 Devious Cover-Up</li>
+<li>1 Essence Scatter</li>
+<li>1 Dispel</li>
+<li>4 Innocent Blood</li>
+<li>2 Evincar's Justice</li>
+<li>2 Doom Blade</li>
+<li>2 Echoing Decay</li>
+<li>1 Agony Warp</li>
+<li>1 Diabolic Edict</li>
+<li>1 Disfigure</li>
 <li>1 Crypt Incursion</li>
-<li><h4>Lands (25)</h4></li>
-<li>1 Blast Zone</li>
-<li>1 Field of Ruin</li>
-<li>1 Castle Locthwain</li>
-<li>2 Woodland Cemetery</li>
-<li>3 Blooming Marsh</li>
-<li>3 Hissing Quagmire</li>
-<li>3 Fabled Passage</li>
-<li>3 Forest</li>
-<li>8 Swamp</li>
+<li><h4>Lands (22)</h4></li>
+<li>2 Bojuka Bog</li>
+<li>4 Dimir Aqueduct</li>
+<li>4 Dismal Backwater</li>
+<li>3 Seat of the Synod</li>
+<li>6 Island</li>
+<li>1 Swamp</li>
+<li>2 Vault of Whispers</li>
 <li><h4>Sideboard (15)</h4></li>
-<li>2 Veil of Summer</li>
-<li>2 Collective Brutality</li>
-<li>2 Unravel the Aether</li>
-<li>2 Lost Legacy</li>
-<li>1 Nissa, Vital Force</li>
-<li>1 Ashiok, Dream Render</li>
-<li>1 Languish</li>
-<li>1 Bontu's Last Reckoning</li>
-<li>1 Cry of the Carnarium</li>
-<li>1 Golgari Charm</li>
-<li>1 Duress</li>
+<li>4 Duress</li>
+<li>4 Repeal</li>
+<li>3 Dispel</li>
+<li>2 Evincar's Justice</li>
+<li>2 Nihil Spellbomb</li>
 </ul>

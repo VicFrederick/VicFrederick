@@ -1,0 +1,96 @@
+
+/* general Style */
+/* Fill page */
+* { padding: 0; margin: 0; box-sizing: border-box;}
+
+html, body {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+body > * {
+  flex-shrink: 0;
+}
+/* background */
+body {
+  background-image: url("images/555.png");
+}
+/* Content rules for spread to bottom of page and room for background*/
+.content {
+  background-color: #cc5500;
+  flex-grow: 1;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+/* Featured */
+.featured {
+  background-color: white;
+	margin: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* menu 2 */
+.pages{
+  margin-left: 15%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+a {
+  text-decoration: none;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* inline images in content ~ required 100% width for each image*/
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Navigation below */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
